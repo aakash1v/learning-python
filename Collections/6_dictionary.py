@@ -10,4 +10,5 @@ mydict = {101:'Amit',102:'Rahul',103:'Vikas'}
 print(mydict.keys())
 print(mydict.values())
 print(mydict.items())
+print("nothing....")
 
