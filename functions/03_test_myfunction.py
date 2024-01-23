@@ -8,4 +8,18 @@ import math
 # my.reversenum(n)
 
 
-print(math.sqrt(6))
+# print(math.sqrt(6))
+
+n = int(input("Enter a number : "))
+x =my.factorial(n)
+print('Factorial is %d'%x)
+
+
+x = my.area(12)
+print("Area is %.2f"%x)
+
+a,b,c,d = my.asmd(100,50)
+print('Addition is ',a)
+print('Substraction is ',b)
+print('Multiplication is ',c)
+print('Division is ',d)
