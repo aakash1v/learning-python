@@ -21,3 +21,4 @@ print(myarr)
 # index 
 print(myarr.index(0))
 #checking
+#checking
