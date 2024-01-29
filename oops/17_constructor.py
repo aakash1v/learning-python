@@ -24,7 +24,7 @@ class Marks(Student):
 
     def display(self):
         print(self.per)
-        print('----------')
+        print('----------') #constructor override...
         print(self.rno)
         print(self.name)
         print(self.course)
