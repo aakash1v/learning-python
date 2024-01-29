@@ -1,5 +1,5 @@
 class instanceCounter(object):
-    count =0
+    count = 0
 
     def __init__(self,val):
         self.val = val
@@ -11,6 +11,7 @@ class instanceCounter(object):
     def get_val(self):
         return self.val
     
+    @classmethod
     def get_count(self):
         return instanceCounter.count
     

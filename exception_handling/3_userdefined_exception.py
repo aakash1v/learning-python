@@ -16,6 +16,5 @@ try:
 # except FiveDivisionError as msg:
 #     print(msg)
 except Exception as e:
-    print(e)
+    print(e) 
 
-    

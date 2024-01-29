@@ -1,3 +1,5 @@
+# Dimand shape inheritance
+
 class A(object):
     def dothis(self):
         print('doing this in A')
@@ -17,3 +19,5 @@ d_instance.dothis()
 
 print(D.mro())
 #D>B>C>A
+
+
