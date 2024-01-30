@@ -12,8 +12,8 @@ class instanceCounter(object):
         return self.val
     
     @classmethod
-    def get_count(self):
-        return instanceCounter.count
+    def get_count(cls):
+        return cls.count
     
 a = instanceCounter(5)
 b = instanceCounter(13)
@@ -24,6 +24,7 @@ for obj in (a,b,c):
     print('val of object: %s ' %(obj.get_val())) #initialized value(5,13,etc.)
     # print('Count: %s'%(obj.get_count()) )   #always 3
     print('Count: %s' % (obj.count) )   #always 3
+print(instanceCounter.get_count())
 
 '''simple class as a list
 '''
