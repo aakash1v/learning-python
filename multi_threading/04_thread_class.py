@@ -3,13 +3,14 @@ import time
 
 
 class MyThread1(Thread):
-    def run(self):
+    def run(self):  #To start thread you should override the run method...
         for i in range(10):
-            print('This is my Thread1 : ',i)
+            print('This is my Thread1: ',i)
             time.sleep(1)
 
 class MyThread2(Thread):
-    for i in range(10):
+    def run(self):  #same override run method...:)
+        for i in range(10):
             print('This is my Thread2: ',i)
             time.sleep(1)
 
@@ -28,3 +29,4 @@ end = time.time()
 print(end-start)
 
 print('\nMain thread End......')
+
